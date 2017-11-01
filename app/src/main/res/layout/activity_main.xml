@@ -10,8 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.henghao.festec.MainActivity">
 
-    <TextView
+    <com.joanzapata.android.iconify.views.IconTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/icon_test"
+        android:text="{fa-coffee}"
+        android:textSize="30sp"/>
 </RelativeLayout>
