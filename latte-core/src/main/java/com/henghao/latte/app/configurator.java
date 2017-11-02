@@ -8,6 +8,7 @@ import java.util.HashMap;
 
 /**
  * Created by zb on 2017/11/1.
+ * 配置信息的存储
  */
 
 public class Configurator {
@@ -60,7 +61,7 @@ public class Configurator {
     private void checkConfiguration() {
         final boolean isReady = (boolean) LATTE_CONFIGS.get(ConfigType.CONFIG_READY.name());
         if (!isReady) {
-            throw new RuntimeException("Configuration is not ready,call config");
+            throw new RuntimeException("Configuration is not ready,call configure");
         }
     }
 
