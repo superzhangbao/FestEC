@@ -26,7 +26,7 @@ android {
 
 dependencies {
     provided fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:multidex:'
+//    compile 'com.android.support:multidex:'
     annotationProcessor project(':latte-compiler')
     compile project(':latte-ec')
 }
